@@ -11,13 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130716232123) do
+ActiveRecord::Schema.define(:version => 20130719075424) do
 
   create_table "attendees", :force => true do |t|
     t.string  "name"
     t.string  "location"
     t.integer "distance"
     t.integer "conference_id"
+    t.float   "latitude"
+    t.float   "longitude"
   end
 
   create_table "conferences", :force => true do |t|
@@ -25,6 +27,8 @@ ActiveRecord::Schema.define(:version => 20130716232123) do
     t.string  "location"
     t.integer "footprint"
     t.integer "num_attend"
+    t.float   "latitude"
+    t.float   "longitude"
   end
 
   create_table "sessions", :force => true do |t|
