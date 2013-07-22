@@ -1,0 +1,780 @@
+ACM SIGCOMM 1997
+Palais des Festival Cannes FRANCE
+@Home Network Green, Mark
+425 Broadway Redwood City, CA 94063 U.S.A.
+3COM Schuster, Guido
+1800 W. Central Road Mount Prospect, IL 60056 U.S.A.
+3COM Sidhu, Ikhlaq
+1800 W. Central Road Mount Prospect, IL 60056 U.S.A.
+ACM McCarren, Patrick
+1515 Broadway New York, NY 10036 U.S.A.
+Addison Wesley Gettman, Karen
+21 Buckeye Ct. Petaluma, CA 94952 U.S.A.
+Addison Wesley Longman Mosman, Karen
+5 Bentinck Street London, W1M 5RN United Kingdom
+Addison Wesley Longman Temblett, Steve
+5 Bentinck Street London, W1M 5RN United Kingdom
+Alcatel Business Systems Freynet, Marc
+1 Route de De A. Schweitzer Illkirch, 67408 France
+Alexandria Univeristy, Egypt Elnahas, Amal
+Department of Computer Science Alexandria, 21544 Egypt
+Ascend Communications Renwick, John
+10250 Valley View Road Eden Prairie, MN 55344 U.S.A.
+Ascend HPND Peterson, Hal
+10250 Valley View Road Eden Prairie, MN 55344 U.S.A.
+AT&T Wetzel, Greg
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+AT&T Labs- Research Caceres, Ramon
+180 Park Avenue Florham Park, NJ 07932 U.S.A.
+AT&T Labs- Research Douglis, Fred
+180 Park Ave. Florham Park, NJ 07932 U.S.A.
+AT&T Labs- Research Feldmann, Anja
+180 Park Ave. Florham Park, NJ 07932 U.S.A.
+AT&T Labs- Research Hjalmtysson, Gisli
+180 Park Avenue Florham Park, NJ 07932 U.S.A.
+AT&T Labs- Research Kalmanek, Charles
+180 Park Ave. Florham Park, NJ 07932 U.S.A.
+AT&T Labs- Research Krishnamurthy, Balachander
+180 Park Ave. Florham Park, NJ 07932 U.S.A.
+AT&T Labs- Research Rexford, Jennifer
+180 Park Avenue Florham Park, NJ 07932 U.S.A.
+Baker Capital Corp. Baker, Henry
+575 Madison Avenue New York, NY 10022 U.S.A.
+Bay Networks Nichols, Kathleen
+4401 Great America Parkway Santa Clara, CA 95052 U.S.A.
+Bay Networks Yin, Nanying
+3 Federal Street Billerica, MA 01821 U.S.A.
+BBN Corporation Chapin, Lyman
+10 Fawcett Street \Cambridge, MA 02138 U.S.A.
+BBN Corporation Partridge, Craig
+7424 Rockway Ave. El Cerrito, CA 94530 U.S.A.
+BBN Technologies Elliott, Chip
+10 Moulton Street Cambridge, MA 02138 U.S.A.
+BBN Technologies Zavgren, John
+10 Moulton Street Cambridge, MA 02141 U.S.A.
+Bell Labs Benmohamed, Lotfi
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+Bell Labs Lakshman, T V
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+Bell Labs Lin, Chueng Hsien
+101 Crawfords Corner Road Holmdel, NJ 07723 U.S.A.
+Bell Labs Moghe, Pratyush
+101 Crawfords Road Holmdel, NJ 07733 U.S.A.
+Bell Labs Paul, Sanjoy
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+Bell Labs Woo, Thomas
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+Bellcore Huitema, Christian
+445 South Street Morristown, NJ 07960 U.S.A.
+Bellcore Sincoskie, David
+445 South Street Morristown, NJ 07960 U.S.A.
+Boston University - Computer Science
+111 Cummington Street Boston, MA 02215 U.S.A.
+BT Laboratories Key, Peter
+MLB 5/51b, BT Laboratories, Ipswich, Suffolk, IP5 3RE United
+BT Laboratories Lucek, Julian
+B55/125A, Martlesham Heath Ipswich, IP5 3RE United Kingdom
+BT Laboratories Rudkin, Steve
+B54/21 Martlesham Heath Ipswich, IP5 7RE United Kingdom
+BT Labs Briscoe, Bob
+Martlesham Heath Ipswich, IP5 3RE England
+C&C Research Laboratories Bakre, Ajay
+110 Rio Robles San Jose, CA 95134 U.S.A.
+C&C Research Laboratories Kolarov, Aleksandar
+4 Independence Way Princeton, NJ 08540 U.S.A.
+Cambridge University Barham, Paul
+Pembroke Street Cambridge, CB2 30G United Kingdom
+Cambridge University Crosby, Simon
+Pembroke Street Cambridge, CB2 3QG United Kingdom
+Cambridge University Leslie, Ian
+Pembroke Street Cambridge, CB2 3QG United Kingdom
+Carnegie Mellon Univ. Broch, Josh
+5530 Fifth Avenue. Pittsburgh, PA 15232 U.S.A.
+Carnegie Mellon Univ. Ma, Qingming
+5000 Forbes Ave. Pittsburgh, PA 15213 U.S.A.
+Carnegie Mellon Univ. Ng, Tze Sing
+515 Maryland Ave. Pittsburgh, PA 15232 U.S.A.
+Carnegie Mellon Univ. Satyanarayanan, M.
+5000 Forbes Avenue Pittsburgh, PA 15213 U.S.A.
+Carnegie Mellon Univ. Steenkiste, Peter
+5090 Forbes Avenue Pittsburgh, PA 15213 U.S.A.
+Carnegie Mellon Univ. Stephens, Donpaul
+5000 Forbes Avenue Pittsburgh, PA 15213 U.S.A.
+Carnegie Mellon Univ. Stoica, Ion
+5000 Forbes Ave. Pittsburgh, PA 15213 U.S.A.
+Carnegie Mellon Univ. Zhang, Hui
+5000 Forbes Ave. Pittsburgh, PA 15213 U.S.A.
+CDT/LTU Parnes, Peter
+University of Lule Lule, 971 87 Sweden
+Cisco Systems Abe, George
+11766 Wilshire Blvd. Los Angeles, CA 90025 U.S.A.
+Cisco Systems Bailey, Chase
+170 West Tasman Drive San Jose, CA 95134 U.S.A.
+Cisco Systems Davie, Bruce
+250 Apollo Drive Chelmsford, MA 01824 U.S.A.
+Cisco Systems Doolan, Paul
+18 Briar Drive Milford, MA 01757 U.S.A.
+Cisco Systems Kon, Ronnie
+170 West Tasman Drive San Jose, CA 95134 U.S.A.
+Cisco Systems McCloghrie, Keith
+1190 Hyde Ave. CA 95129 U.S.A.
+CNET/ France Telecom Atlan, Benjamin
+2 Avenue Pierre Marzin 22300 Lannion, France
+CNET/ France Telecom Clerot, Fabrice
+2 Avenue Pierre Marzin 22300 Lannion, France
+CNET/ France Telecom Guillemot, Christian
+2 Avenue Pierre Marzin 22300, Lannion, France
+Columbia University Florissi, Danilo
+500 West 120th Street New York, NY 10025 U.S.A.
+Communications Research Centre Bilodeau, Claude
+3701 Carling Ave. Ottawa, ON K2H 8S2 Canada
+Conseil Regional PACA Pithon, Laurent
+27 Place Jules Guesde, 13481 France
+Cornell University Guo, Katherine
+Department of Computer Science Cornell University Ithaca, NY 14853 U.S.A.
+Cornell University Keshav, S.
+4130 Upson Hall, Dept. of Computer Science Ithaca, NY 14853 U.S.A.
+Cornell University Sharma, Rosen
+Upson Hall Ithaca, NY 14853 U.S.A.
+CRIN_CNRS/INRIA_Lorraine Chrisment, Isabelle
+Equipe RESEDAS Batiment Loria- Vandoeuvre Les Nancy Cede, 54506
+CSIRO Yap, Ken
+Locked Bag 17 2113, North Ryde, Australia
+DARPA Orman, Hilane
+3701 N. Fairfax Drive Arlington, VA 22203 U.S.A.
+Dassault Electronique Colquet, Patrick
+55 Quai M. Dassault Saint Lloud, 92 France
+Dassault Electronique Dorel, Jean Luc
+55 Quai Marlel Dassault Saint Cloud, 92 France
+Datacom-CSEM Noubir, Guevara
+Japuet-Droz 1 Neuchatel, Ch-2007 Switzerland
+DECWRL Mogul, Jeff
+250 Univeristy Avenue Palo Alto, CA 94301 U.S.A.
+Digital Corp. Higginson, Peter
+Imperial Way Reading, Berks, RG2 0TU United
+Digital Equipment Corp. Pouffary, Yanick
+Centre Technique Europe B.P. 027 Sophia Antipolis Cedex, 06901 France
+EC- DG XIII Bayou, Remy
+INRIA Rocquencourt B.P. 105 Le Chesnay, 78210 France
+ENSICA & LAAS-CNRS Boyer, Marc
+ENSICA DMI 1 Place Emile Blouin Toulouse, 31300 France
+ENSICA. Dairaine, Laurent
+1, Place Emile BLOUIN Toulouse Cedex 5, 31056 France
+ENST Brekagne Elloumi, Omar
+2 rue de la chataigneraie Cession Seirgne, France
+EPFL. Blazevic, Ljubica
+LRC/INR Ecublens Ch-1005 Lausanne, Switzerland
+EPFL. Gauthier, Eric
+LRC/INR Ecublens Ch-1005 Lausanne, Switzerland
+EPFL. Hurley, Paul
+LRC/INR Ecublens Ch-1005 Lausanne, Switzerland
+EPFL/ LRC/ DI Le Boudec, Jean Yves
+INR Ecublens 1015, Lausanne, Switzerland
+EPiCon, Inc. Khalandovsky, Michael
+404 Wyman Street Waltham, MA 02154 U.S.A.
+Ericsson Telecom AB Bevemyr,
+Johan Computer Science Laboratory Stockholm, S-126 25 Sweden
+Ericsson Telecom AB Latvala, Mikael
+Jorvas, 02420 Finland
+Ericsson Telecom AB Olsson, Gunnar
+Dialoggatan 1 Stockholm, 126 25 Sweden
+ESKER Brodard, Benoit
+13, rue Desiree Lyon, 69001 France
+ETH Zurich Bolliger, Juerg
+Institut FUER Computersysteme Zurich, 8092 Switzerland
+ETH Zurich Plattner, Bernhard
+ETH- Zentrum Zurich, CH-8902 Switzerland
+ETH Zurich Waldvogel, Marcel
+TIK, ETZ, G61.2 ETH Zentrum 8092, Zurich, Switzerland
+ETSI Cosgrave, Bridget
+Sophia Antipolis CEDEX, F-06921 France
+Eurecom Institute Gafsi, Jamel
+2229, route des Cretes Sophia-antipolis Cedex, 06904 U.S.A.
+Eurecom Institute Humblet, Pierre A.
+BP 193 Cannes, 06400 France
+Eurecom Institute Kohrs, Arnd
+2229, route des Cretes Sophia-antipolis Cedex, 06904 U.S.A.
+Eurecom Institute Mazziotta, Sandro
+2229, route des Cretes Sophia-antipolis Cedex, 06904 U.S.A.
+France Telecom/ CNET Bonjour, Dominique
+2 Av. P. Marzin Lannion, 22307 France
+France Telecom/ CNET Brown, Patrick
+905 rue Albert Einstein Sophia Antipolis Cedex, 06921 France
+France Telecom/ CNET Carugi, Marco
+2 Av. P. Marzin Lannion, 22307 France
+France Telecom/ CNET Collange, Denis
+95 rue Albert Einstein Sophia Antipolis Cedex, 06921 France
+France Telecom/ CNET Costeux, Jean- Laurent
+95 rue Albert Einstein Sophia Antipolis Cedex, 06921 France
+France Telecom/ CNET Marchal, Isabelle
+BP 59 Cesson Sevigne, 35512 France
+France Telecom/ CNET Oubagha, Eliane
+38-40 rue du General-Lederc Issy Moulineaux Cedex 9, 92794 France
+France Telecom/ CNET Tiku, Hidega
+38-40 rue du General-Lederc Issy Moulineaux Cedex 9, 92794 France
+Fraunhofer CRCG, Inc. Macedonia, Michael
+321 South Main Street Providence, RI 02903 U.S.A.
+FTP Software Dobrina, Irina
+4 Pioneer Circle Andover, MA 01810 U.S.A.
+George Mason Univ. Laviano, Vincent
+GMU C3I Center Fairfax, VA 22030 U.S.A.
+George Mason Univ. Pullen, Mark
+CJJ Center/ Computer Science Fairfax, VA 22030 U.S.A.
+Georgia Institute of Technology Kravets, Robin
+969 Piedmont Ave. NE Atlanta, GA 30309 U.S.A.
+Georgia Tech Ammar, Mostafa
+College of Computing Atlanta, GA 30332 U.S.A.
+Georgia Tech Zegura, Ellen
+College of Computing Atlanta, GA 30332 U.S.A.
+GlobalCast Communications Whetten, Brian
+46832 Lakeview Blvd. Fremont, CA 94538 U.S.A.
+GMD Mayer, Hans
+Rheinstr. 75 64295, Darmstadt, Germany
+GMD- TKT Reinema, Rolf
+Reinstrasse 75 Darmstadt, D-64295 Germany
+GTE Laboratories Skelly, Paul
+40 Sylvan Road Waltham, MA 02254 U.S.A.
+Harvard Univ./ ISI Blackwell, Trevor
+29 Oxford Street Cambridge, MA 02138 U.S.A.
+Harvard Univ./ ISI Karp, Brad
+415 Dunster Mail Center Cambridge, MA 02138 U.S.A.
+Harvard Univ./ ISI Morris, Robert
+Pierce 110 Cambridge, MA 02138 U.S.A.
+Harvard University Lin, Dong
+29 Oxford Street Cambridge, MA 02138 U.S.A.
+Hewlett Packard Bhatti, Nina
+1501 Page Mill Road Palo Alto, CA 94304 U.S.A.
+Hewlett Packard Calamvokis, Costas
+Filton Road, #1 Bristol, BS12 6Q2 United Kingdom
+Hewlett Packard Edwards, Aled
+Filton Road, Stoke Gifford Bs12 6qz, Bristol, United Kingdom
+Hewlett Packard Friedrich, Rich
+1501 Page Mill Road Palo Alto, CA 94304 U.S.A.
+Hewlett Packard Grinham, John
+Filton Road, Stoke Gifford Bristol, BS12 6QZ United Kingdom
+Hewlett Packard Kim, Peter
+Miulleushufse Berlin, Germany
+Hewlett Packard Thomas, Andrew
+Filton Road, Stoke; Bristol, B512 6QZ United Kingdom
+Hewlett Packard Virondeau, Bernard
+5, avenue Raymond Chanas- Eybens Grenoble Cedex 9, 38053 France
+Honeywell Kappel, Steve
+47 Lowry NE Minneapolis, MN 55418 U.S.A.
+Hyundai Network Systems Chang, Yoon
+3206 Shandwick Place Fairfax, VA 22030 U.S.A.
+Hyundai Network Systems Wills, Jeffrey
+3206 Shandwick Place Fairfax, VA 22031 U.S.A.
+IBM Delp, Gary 3605 Highway
+52 North Rochester, MN 55901 U.S.A.
+IBM Larsen, Loren
+Research Triangle Park, NC 27709
+IBM Patel, Ajay
+195 Island Road Mahwah, NJ 07430 U.S.A.
+IBM Peris, Vinod
+Yorktown Heights, NY 10598 U.S.A.
+IBM Seshan, Srinivasan IBM
+T.J. Watson Research Center Yorktown Heights, NY 10598 U.S.A.
+Inmedia Corporation Donkin, Richard
+262A Fulham Road London, SW10 9EL United Kingdom
+Inmedia Corporation Muirhead, Charles
+262A Fulham Road London, SW10 9EL United Kingdom
+INRIA Altman, Eitan
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Bolot, Jean
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Boyera, Stephane
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Cipiere, Patrick
+INRIA Rocquencourt B.P. 105 Le Chesnay, 78210 France
+INRIA Clerget, Antoine
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Dabbous, Walid
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Diot, Christophe
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Duros, Emmanuel
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Fosse-Parisis, Sacha
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Fuchs, Michael
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Gautier, Laurent
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Grossglauser, Matthias
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Jimenez, Tania
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Kaplan, Delphine
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Lety, Emmanuel
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Liao, Tie
+Rocquencourt, INRIA Le Chesnay, 78153 France
+INRIA Liu, Zhen
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+INRIA Lyonnet, Frank
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Makpangov, Mesaac
+INRIA Rocquencourt B.P. 105 Le Chesnay, 78210 France
+INRIA May, Martin
+2004 route des lucioles Sophia- Antipolis, 06902 France
+INRIA Muron, Olivier
+Domaine de Volueeau Rocuanocoure, 78150 France
+INRIA Nain, Philippe
+2004, Route des Lucioles Sohia Antipolis, 06902 France
+INRIA Saridakis, Titos
+Campus de Beaulieu Rennes, 35042 France
+INRIA Turletti, Thierry
+2004, Route des Lucioles Sohia Antipolis Bp93, 06902 France
+Institute EURECOM Biersack, Ernst
+2229, route des Cretes; B.P. 193 Sophia Antipolis, Cedex, 06904 France
+Institute EURECOM Carle, Georg
+2229, route des Cretes; B.P. 193 Sophia Antipolis, Cedex, 06904 France
+Institute EURECOM Jung, Matthias
+2229, route des Cretes; B.P. 193 Sophia Antipolis, Cedex, 06904 France
+Institute EURECOM Lacher, Martin
+2229, route des Cretes; B.P. 193 Sophia Antipolis, Cedex, 06904 France
+Institute EURECOM Nonnenmacher, Joerg
+2229, route des Cretes; B.P. 193 Sophia Antipolis Cedex, 06904 France
+Intel Corp. Aditya, Vikas
+16889, NW Stoller Drive Portland, OR 97229 U.S.A.
+Intel Corp. Iyer, Prakash
+2111 NE 25th Ave. Hillsboro, OR 97124 U.S.A.
+Intel Corp. Maciocco, Christian
+2111 NE 25th Ave. Hillsboro, OR 97124 U.S.A.
+Intel Corp. Weinrib, Abel
+2111 NE 25th Avenue Hillsboro, OR 97124 U.S.A.
+Interop Jacobsen, Ole
+743 Grand View Ave. San Francisco, CA 94114 U.S.A.
+Ipsilon Minshall, Greg
+232 Java Drive Sunnyvale, CA 94089 U.S.A.
+Itanian National Research Council
+Viale Delle Science Palermo, 30128 Italy
+KAIST Yang, Jae Heon
+373-1 Kusongdong, Yusongku Taejon, 305-701 Korea
+Keio University Tobe, Yoshito
+5322 Endoh, Fujisawa 252, Kanagawa, Japan
+Kokusai Denshin Denwa Co. ITO, Atsushi
+2-1-15 Ohara, Kamifukuoka-shi 356, Saitama, Japan
+KTH Orava, Fredrik
+Dept. of Teleinformatics, KTH Kista, S-164 40 Sweden
+KTH Sundquist, Mikael
+Renv. 9 Huddinge, 14140 Sweden
+KTH Vatn, Jon- Olov
+KTH/IT, Electrum 204 Kista, S-164 40 Sweden
+KTH Wu, Jiang
+Dept. of Teleinformatics, KTH Kista, S-164 40 Sweden
+LAAS- CNRS Diaz, Michel
+7 Av du col Roche 31077, Toulouse, France
+Laboratoire LIP6- Universite Paris VI
+4 place Jussieu 75005, Paris, France
+Laboratoires d' Electronique Philips
+B.P. 15-22, Av. Descartes Limeil-brevannes Cedex, 94453 France
+Lancaster University Edwards, Christopher
+Computing (SECAMS) La1 1hd, Lancaster, England
+Lancaster University El- Marakby, Randa
+Computing Department Lancaster, LA1 4YR United Kingdom
+Lancaster University Hutchison, David
+Computing Department Lancaster, LA1 4YR United Kingdom
+Lawrence Berkeley Lab. Floyd, Sally
+One Cyclotron Road Berkeley, CA 94720 U.S.A.
+Lawrence Berkeley Lab. Jacobson, Van
+1 Cyclotron Road Berkeley, CA 94720 U.S.A.
+Lawrence Berkeley Lab. Paxson, Vern
+1 Cyclotron Road Berkeley, CA 94720 U.S.A.
+LBNL Fall, Kevin
+1 Cyclotron Road  Berkeley, CA 94720 U.S.A.
+Live Networks, Inc. Finlayson, Ross
+650 Castro Street Mountain View, CA 94041 U.S.A.
+Lockheed Martin Rhyne, Theresa- Marie
+86 Alexander Drive Research Triangle Park, NC 27711
+LSIIT Pate, David
+7, rue R. Descartes 67084, Strasbourg Cedex, France
+LSR-IMAG Duda, Andrzej
+BP53 Grenoble, Cedex 9, 38041 France
+Lucent Technologies, Bell Labs Ramjee, Ram
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+Lucent Technologies, Bell Labs Samadi, Behrokh
+101 Crawfords Corner Road Holmdel, NJ 07733 U.S.A.
+Lucent Technologies, Bell Labs Sethi, Ravi
+600 Mountain Ave. Murray Hill, NJ 07974 U.S.A.
+Lulea Univ. of Technology Brodnik, Andres
+Dept. of Computer Science Lulea, 97187 Sweden
+Lulea Univ. of Technology Carlsson, Svante
+Dept. of Computer Science  Lulea, SE-97187 Sweden
+Lulea Univ. of Technology Degermark, Mikael
+Dept. of SICS Lulea, SE-97187 Sweden
+Lulea Univ. of Technology Engan, Mathias
+Department of CSEE S-97187, Lulea, Sweden
+Lulea Univ. of Technology Flodin, Malin
+Dept. of CSEE S-971 87 Lulea, Sweden
+Lulea Univ. of Technology Johansson, Olof
+Dept. of CSEE S-971 87 Lulea, Sweden
+Lulea Univ. of Technology Larzon, Lars-ake
+Dept. of Computer Science S-97187, Lulea, Sweden
+Lulea Univ. of Technology Nordgren, Bjorn
+S-97187 Lulea Lulea, 97187 Sweden
+Lulea Univ. of Technology Pink, Stephen
+Faeltspatstigen 62 S-977 53, Lulea, Sweden
+Lulea Univ. of Technology Schelen, Olov
+Department of CSEE S-97187, Lulea, Sweden
+M.I.T. Guhag, John
+545 Technology Square Cambridge, MA 02139 U.S.A.
+M.I.T. Legedza, Ulana
+545 Technology Square Cambridge, MA 02139 U.S.A.
+M.I.T. Narvaez, Paolo
+77 Massachusetts Avenue Cambridge, MA 02139 U.S.A.
+M.I.T. Siu, Sunny
+3-449 C, 77 Massachusetts Ave. Cambridge, MA 02139 U.S.A.
+M.I.T. Wetherall, David
+545 Technology Square Cambridge, MA 02139 U.S.A.
+M.I.T./ Lab for Computer ScienceClark, David
+545 Technology Square  Cambridge, MA 02139 U.S.A.
+M.I.T./ Lab for Computer ScienceSollins, Karen
+545 Technology Square Cambridge, MA 02139 U.S.A.
+M.I.T./ Lab for Computer ScienceWroclawski, John
+545 Technology Square Cambridge, MA 02139 U.S.A.
+MCI Miller, Gregory
+210 Reston Parkway Reston, VA 20191 U.S.A.
+MCI Sinnreich, Henry
+901 International Parkway Richardson, TX 75081 U.S.A.
+MCI Song, Chuck
+2100 Reston Parkway Reston, VA 20191 U.S.A.
+Medical Univ. at Lubeck Schmitt, Michael
+Institute for Telematics Lubeck, 23562 Germany
+Microsoft Research Bahl, Victor
+One Microsoft Way Redmond, WA 98052 U.S.A.
+Microsoft Research McAuley, Derek
+7 Brook Lane Cambridge, CB3 7PY United Kingdom
+Microsoft Research Zill, Brian
+One Microsoft Way Redmond, WA 98052 U.S.A.
+Monash Univ. and Telstra Ivanovich, Milosh
+4 The Boulevard Glen Waverley, Victoria, 3150
+Morgan Kaufmann Publishers Forster, Michael
+27 Church Road Hove, E-sullex, BN3 2XA United
+Morgan Kaufmann Publishers Mann, Jennifer
+340 Pine Street San Francisco, CA 94104 U.S.A.
+Motorola Bayer, Ralf
+Am Weiher 17A Hockheim, 65239 Germany
+National Science Foundation Fisher, Darleen
+4201 Wilson Blvd. Arlington, VA 22230 U.S.A.
+National Science Foundation Strawn, George
+4201 Wilson Blvd. Arlington, VA 22230 U.S.A.
+National Science Foundation Suda, Tatsuya
+4201 Wilson Blvd.  Arlington, VA 22230 U.S.A.
+Naval Postgraduate School Brutzman, Don
+Code UW/BR Monterey, CA 93943 U.S.A.
+NCSR Konto Vasilio, Kimon
+03-15310 AG. Paraskevi, Athens, Greece
+Net Insight AB Holmlund, Mattias
+Ingenjorsv 3 Stockholm, SE-117 43 Sweden
+Newbridge Networks Carr, David
+600 March Road Kanata, ON K2K 2E6 Canada
+NIC France Shabou, Malek INRIA Rocquencourt B.P.
+105 Le Chesnay, 78210 France
+NIL Hin Wah, Yip
+24th Storey, Tower A 109679, Singapore, Singapore
+NIST Su, David
+820 West Diamond Avenue  Gaithersburg, MD 20899 U.S.A.
+Nokia Research Center Rimey, Ken
+P.O. Box 422 Nokia Group, FIN-00045 Finland
+Nortel Technology Bean, Angelo
+16, Place du Commerce Verdun, Quebec, H3E 1H6 Canada
+North Carolina State Univ. Perros, Harry
+Box 8206, NC 27695 U.S.A.
+NRL Macker, Joe
+Code 5544 Washington, DC 20375 U.S.A.
+NTT Info. & Comm. Syst. Lab. Matsui, Yasunori
+1-1 Hikarinooka Yokosuka-shi, Kanagawa, 239 Japan
+NTT Info. & Comm. Syst. Lab. Sano, Tetsuo
+1-1 Hikarinooka Yokosuka, Kanagawa, 239 Japan
+NTT Optical Systems Lab. Yamashita, Kei
+807C 1-1 Hikari-no-oka Yokosuka-shi/kanagawa-ken, 239 Japan
+NTTSoftware Labs Francis, Paul
+3-9-11 Midori-cho  Musashino-shi, Tokoyo, 180 Japan
+Ohio University Ostermann, Shawn
+140 Morton Hall Athens, OH 45701 U.S.A.
+Philips Research Palo Alto Ismail, Nermeen
+1070 Arastradero Road Palo Alto, CA 94304 U.S.A.
+Pittsburgh Supercomputing Ct. Mathis, Matthew
+4400 Fifth Ave. Pittsburgh, PA 15206 U.S.A.
+Politecnico Di Torino Bianco, Andrea
+Corso Duca Degli Abruzzi 24 Torino, 10129 Italy
+Politecnico Di Torino Chiasserini, Carla
+Corsoduca Degli Abruzzi 24 Torino, 10129 Italy
+Prentice Hall Apt, Alan
+2629 Redwing Road Fort Collins, CO 80526 U.S.A.
+Rank Xerox Research Centre Mazeau, Patrick
+6 Chenin De Mauperiuis Meylan, 38240 France
+Sejong Univ., Korea Ahn, Sanghyun
+Kwangjin-gu Koonja-dong 98 Seoul, 143-747 Korea
+SENACYT, Panama Escobar, Julio
+Aptdo. 7250, Zona 5 Panama,
+Seoul National Univ. Kim, Chong
+Dept. of Computer Science, Seoul National University, Seoul, Korea
+SGI Leav, Eliot
+2011 N. Shoreline Blvd. Mountain View, CA 94043 U.S.A.
+SICS Danielson, Mats
+Box 1263 Se-164 29 Kista, Sweden
+SICS Gronvall, Bjoru
+Box 1263 29 Kista, Sweden
+SICS Kohler, Torsten
+Box 1263 28, Kista, Sweden
+SICS Marsh, Ian
+Box 1263 Se-164 29 Kista, Sweden
+SICS Moestedt, Andreas
+Box 1263 Se-164 29 Kista, Sweden
+SICS Sjodin, Peter
+Box 1263 Kista, SE-16429 Sweden
+SICS Westerlund, Assar
+Box 1263 Se-164 29 Kista, Sweden
+Siemens AG Bonk, Thomas
+Hofmannstrasse 51  81359, Muenchen, Germany
+Siemens AG Mollenhauer, Hans
+Hofmannstrasse 51 81359, Muenchen, Germany
+Siemens AG Theimer, Thomas
+Hofmannstr. 51  Munich, 81579 Germany
+Silicon Graphics, Inc. Katinsky, David
+2011 N. Shoreline Blvd. Mountain View, CA 94043 U.S.A.
+Slovak Technical University Fellner, Ivan
+Ilkovicova 3 812 19, Bratislava, Slovak Republic
+Sony Computer Science Lab Shionozaki, Atsushi
+Takanawa Muse Building 3F, Shinagawa-ku, Tokyo, 141 Japan
+Sony Computer Science Lab Teraoka, Fumio
+3-14-13 Higashigotanda, Tokyo, 141 Japan
+Sony CSL Cho, Kenjiro
+3-14-13, Higashi-Gotanda, 141, Tokyo, Japan
+Spider Software Shearer, Gavin
+8 John's Place Edinburgh, Scotland
+SRI International Taft Plotkin, Nina
+333 Ravenswood Avenue Menlo Park, CA 94025 U.S.A.
+Stanford Univ. Baker, Mary
+Gates Bldg. 4A Stanford, CT 94305-9040 U.S.A.
+Stanford Univ. Cheshire, Stuart
+1436 Rosecrest Terrace San Jose, CA 95126 U.S.A.
+Stanford Univ. Lin, Steve Computer Systems Lab
+Gates 5B Stanford, CA 94305 U.S.A.
+Stanford Univ. McKeown, Nick
+Computer Systems Lab Gates 3A Stanford, CA 94305 U.S.A.
+Stanford Univ. Mittra, Suvo
+87 Mission Ridge Ct. Fremont, CA 94539 U.S.A.
+Stanford Univ. Tang, Diane
+P.O. Box 2429 Stanford, CA 94305 U.S.A.
+Sun Microsystems Chiu, Dah Ming
+Elizabeth Drive Chelmsford, MA 01824 U.S.A.
+Sun Microsystems Diwanji, Pavani
+2550 Garcia Avenue Mountain View, CA 94043 U.S.A.
+Sun Microsystems Hoffman, Don
+4707 SW Humphrey Park Road Portland, OR 97221 U.S.A.
+Sun Microsystems Kacker, Mukesh
+110 E. Remington Drive Sunnyvale, CA 94087 U.S.A.
+Sun Microsystems Langeveld, Henk
+Computerweg 1 Amersfoort, 3821 AA The Netherlands
+Sun Microsystems Nordmark, Erik
+901 San Antonio Road Palo Alto, CA 94303 U.S.A.
+Sun Microsystems Patterson, Martin
+32 Chemin Du Vieux Chene 38240, Meylan, France
+Sun Microsystems Romanow, Allyn
+2550 Garcia Ave. Mountain View, CA 94043 U.S.A.
+Sun Microsystems Siegel, Ellen
+901 San Antonio Road Palo Alto, CA 94303 U.S.A.
+Sun Microsystems Speer, Michael
+901 Sun Antonio Road Palo Alto, CA 94303 U.S.A.
+Sun Microsystems Wu, Linda
+901 San Antonio Road Palo Alto, CA 94303 U.S.A.
+Swedish Inst. of Computer Science
+Box 1263 Kista, S-164 29 Sweden
+Swedish Inst. of Computer Science
+Box 1263 Kista, 16429 Sweden
+Swiss Federal Inst. of Technology
+DE/TCOM Ch-1015 Lausanne, Switzerland
+Swiss Federal Inst. of Technology
+EPFL-DE-TCOM Lausanne, 1015 Switzerland
+Technical University of Berlin Metzler, Beruard
+Str. d. 17 Juni 136 Berlin, Germany
+Technical University of Braunschweig Bultenweg
+74/75 38106, Braunschweig, Germany
+Technical University of BudapestTuranyi, Zoltan
+High Speed Networks Laboratory, Budapest, Hungary
+Technical University of BudapestVeres, Andras
+High Speed Networks Laboratory, Budapest, Hungary
+Telenor R&D Klovning, Espen
+P.O. Box 83 Kjeller, N-2007 Norway
+Telia Research Bodin, Ulf
+Aurorum 6 Lulea, S-97775 Sweden
+Telia Research Eriksson, Anders
+Aurorum 6 S-97775 Lulea, Sweden
+Texas Instruments Izzard, Martin
+P.O. Box 655474 Dallas, TX 75215 U.S.A.
+The MITRE Corp. Moose, Robert
+1820 Dolley Madison Blvd. Mc Lean, VA 22102 U.S.A.
+Tianjin University Shu, Yantai
+Dept. of Computer Science 300072, Tianjin, China
+Torrent Networking Tech./ Stanford
+8181 Professional Place Landover, MD 20785 U.S.A.
+Toshiba Corp. Tsunoda, Keiji c/o
+Toshiba R&D Center, 1 Kawasaki/kanagawa, 210 Japan
+TU Braunschweig Wittmann, Ralph
+Bueltenweg 74/75 Braunschweig, 38106 Germany
+UCL Crowcroft, Jon
+Gower Street Wc1e 6bt, London, United Kingdom
+UCLA Wei, Jun
+3150 Sawtelle Blvd. Los Angeles, CA 90066 U.S.A.
+UCLA Zhang, Lixia
+4531G Boelter Hall Los Angeles, CA 90024 U.S.A.
+ULM University Merz, Michael
+Distributed Systems Department Ulm, D-89069, Germany
+Univ. Libre de Bruxelles De Preter, Marc
+Boulevard Du Triomphe Bruxelles, B-1050 Belgium
+Univ. of Aberdeen Samaraweera, Nihal
+Dept. of Engineering, Fraser Aberdeen, AB24 3UE United Kingdom
+Univ. of British Columbia Neufeld, Gerald
+#201-2366 Main Mall Vancouver, BC V6T I24 Canada
+Univ. of Brussels Beaufays, Oscar
+23, Joseph Jongen Ave. Brussels B-1180, Belgium
+Univ. of California at Berkeley McCanne, Steve
+633 Soda Hall Berkeley, CA 94720 U.S.A.
+Univ. of California at Berkeley Nguyen, Giao
+387 Soda Hall Berkeley, CA 94720 U.S.A.
+Univ. of California at Berkeley Padmanabhan, Venkat
+387 Soda Hall Berkeley, CA 94720 U.S.A.
+Univ. of California at Berkeley Stemm, Mark
+387 Soda Hall Berkeley, CA 94720 U.S.A.
+Univ. of California Santa Cruz Brandwajn, Alexander
+Dept. of Computer Science Santa Cruz, CA 95064 U.S.A.
+Univ. of California Santa Cruz Flynn, Lori
+Baskin Center for Computer Santa Cruz, CA 95064 U.S.A.
+Univ. of California Santa Cruz Fullmer, Chane
+PO Box 759 Santa Cruz, CA 95061 U.S.A.
+Univ. of Central Florida Sheu, Fenn-huei
+12305 East Cove Drive Orlando, FL 32826 U.S.A.
+Univ. of Delaware Amer, Paul
+Computer Science Department University of Delaware Newark, DE 19716 U.S.A.
+Univ. of Illinois Liu, Jane
+1304 West Springfield Ave. Urbana, IL 61801 U.S.A.
+Univ. of Illinois Lu, Songwu
+1308 W. Main Street Urbana, IL 61801 U.S.A.
+Univ. of Massachusetts Bhattacharyya, Supratik
+Dept. of Computer Science University of Massachusetts Amherst, MA 01003 U.S.A.
+Univ. of Massachusetts Kurose, Jim
+Dept. of Computer Science University of Massachusetts Amherst, MA 01003 U.S.A.
+Univ. of Massachusetts Towsley, Don
+Dept. of Computer Science University of Massachusetts Amherst, MA 01003 U.S.A.
+Univ. of Massachusetts/ Dartmouth
+23 Karen Lane North Dartmouth, MA 02747 U.S.A.
+Univ. of Michigan Han, Seungjae
+Real-Time Computing Laboratory University of Michigan Ann Arbor, MI 48109-2122 U.S.A.
+Univ. of Michigan Jahanian, Farnam
+1301 Beal Ave. Ann Arbor, MI 48109-2122 U.S.A.
+Univ. of Michigan Jamin, Sugih
+1301 Beal Ave. Ann Arbor, MI 48109-2122 U.S.A.
+Univ. of Michigan Labovitz, Craig
+4251 Plymouth Road, Bldg. I Ann Arbor, MI 48105 U.S.A.
+Univ. of Michigan Malan, Rob
+4251 Plymouth Road, Bldg. I Ann Arbor, MI 48105 U.S.A.
+Univ. of Michigan Shin, Kang
+Real-Time Computing Laboratory University of Michigan Ann Arbor, MI 48109 U.S.A.
+Univ. of Minnesota Nelakuditi, Srihari
+1417 Anza Way Livermore, CA 94550 U.S.A.
+Univ. of Newcastle upon Tyne Barcellos, Marinho
+Claremont Road, Claremont Tower Newcastle Upon Tyne, NE1 7RU England
+Univ. of Pennsylvania Alexander, Scott
+200 S. 33rd Street Philadelphia, PA 19104-6389 U.S.A.
+Univ. of Pennsylvania Nettles, Scott
+200 S. 33rd Street Philadelphia, PA 19104 U.S.A.
+Univ. of Pennsylvania Ross, Keith
+Dept. of Systems Engineering University of Pennsylvania Philadelphia, PA 19103 U.S.A.
+Univ. of Pennsylvania Shaw, Marianne
+3600 Chestnut St Philadelphia, PA 19104 U.S.A.
+Univ. of Pennsylvania Smith, Jonathan
+200 South 33rd Street Philadelphia, PA 19104 U.S.A.
+Univ. of Southern California De Lucia, Dante
+2107 Castillo Street Santa Barbara, CA 93105 U.S.A.
+Univ. of Technology, Sydney Fry, Michael
+School of Computing Sciences University of Technology, Sydney Nsw 2007, Australia
+Univ. of Technology, Sydney Ghosh, Atanu
+Thomas Street, Building 4 Nsw 2007, Australia
+Univ. of Technology, Sydney Seneviratne, Aruna
+Faculty of Eng, P.O. Box 123, University of Techonology, Sydney Nsw 2007, Australia
+Univ. of Tubingen Kaletta, Dietmar
+Brunnenstr. 27 D-72074 Tubingen, Germany
+Univ. of Utah Lepreau, Jay
+Computer Science Dept, 3190 MEB Salt Lake City, UT 84112 U.S.A.
+Univ. of Waterloo Wong, Johnny
+Department of Computer Science University of Waterloo Waterloo, ON N2L 3G1 Canada
+Univeristy of Liege Danthine, Andre
+Institut Montefiore, B28 Liege 1, B-4000 Belgium
+Univeristy of Liege Leduc, Guy
+Institut Montefiore, B28 Liege 1, B-4000 Belgium
+Universite de Versailles Pujolle, Guy
+45 Avenue des etats-unis Versailles Cedex, 78035 France
+Universite Paris VI Horlait, Eric
+4, place Jussieu Paris, 75005 France
+University College London Kouvelas, Isidor
+Gower Street London, WC1E 6BT United Kingdom
+University College London Oechslin, Philippe
+Gower Street London, WC1EE 6BT United Kingdom
+University College London Vicisano, Lorenzo
+Gower Street  London, WC1E 6BT United Kingdom
+University of Karlsruhe Hofmann, Markus
+Zirkel 2 76128, Karlsruhe, Germany
+University of Karlsruhe Schiller, Jochen
+Zirkel 2 76128, Karlsruhe, Germany
+University of Kent Waters, Gill
+Computing Laboratory University of Kent Canterbury, Kent, CT2 7NF United
+University of Salzburg Ziegler, Thomas
+Nonntaler Hauptstrasse 15 Salzburg, 5020 Austria
+University of Ulm Wolf, Heiner
+ABT. Verteilte Systeme Ulm, D-89069 Germany
+Uppsala University Bjorkman, Mats
+Box 325 Uppsala, SE-751 05 Sweden
+Uppsala University Gunningberg, Per DoCS,
+Box 325, S-751 05 Sweden
+Uppsala University Knutsson, Bjorn
+P.O. Box 325 Uppsala, S-75105 Sweden
+Uppsala University Lindgren, Thomas
+Box 311 Uppsala, 751 05 Sweden
+US Dept. of Defense Impett, Sylvia
+510 Palisades Blvd. Crownsville, MD 21032 U.S.A.
+US Dept. of Defense Sundstrom, Joan
+10 Forsythia Court Burtonsville, MD 20866 U.S.A.
+USC/ Info. Sciences Inst. Bhogavilli, Suresh
+4350 N. Fairfax Drive Arlington, VA 22203 U.S.A.
+USC/ Info. Sciences Inst. Govindan, Ramesh
+4676 Admiralty Way Los Angeles, CA 90045 U.S.A.
+USC/ Info. Sciences Inst. Granacki, John
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+USC/ Info. Sciences Inst. Handley, Mark
+545 Technology Square Cambridge, MA 02139 U.S.A.
+USC/ Info. Sciences Inst. Reddy, Anoop
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+USC/ Info. Sciences Inst. Schorr, Herbert
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+USC/ISI Estrin, Deborah
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+USC/ISI Obraczka, Katia
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+USC/ISI Postel, Jon
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+USC/ISI Varahdan, Kannan
+4676 Admiralty Way Marina Del Ray, CA 90292 U.S.A.
+Vocaltec Communications Cohen, Alon
+1 Maskit Str. Herzeliya, 46733 Israel
+VXtreme, Inc. Klemets, Anders
+655 S. Fair Oaks Ave. Sunnyvale, CA 94086 U.S.A.
+W3C MIT/LCS Nielsen, Henrik F.
+545 Technology Square Cambridge, MA 02139 U.S.A.
+Washington University Chandranmenon, Girish
+605 Leland Ave. Saint Louis, MO 63130 U.S.A.
+Washington University Papadopoulos, Christos
+Campus Box 1045, One Brookins Saint Louis, MO 63102 U.S.A.
+Washington University Parulkar, Gurudatta
+Campus Box 1045 Saint Louis, MO 63130 U.S.A.
+Worcester Polytechnic Inst. Kinicki, Robert
+100 Institute Road Worcester, MA 01609 U.S.A.
+World Wide Web Consortium Gettys, Jim
+545 Technology Square Cambridge, MA 02139 U.S.A.
+Xerox PARC Breslau, Lee
+3333 Coyote Hill Road Palo Alto, CA 94304 U.S.A.
+Xerox PARC Shenker, Scott
+3333 Coyote Hill Road Palo Alto, CA 94303 U.S.A.

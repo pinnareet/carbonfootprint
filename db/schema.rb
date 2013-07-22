@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(:version => 20130719075424) do
     t.string  "location"
     t.integer "footprint"
     t.integer "num_attend"
+    t.float   "avg_dist"
+    t.integer "num_valid"
     t.float   "latitude"
     t.float   "longitude"
   end

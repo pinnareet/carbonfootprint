@@ -7,16 +7,20 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 #Create initial conference and attendees
-list = Array.new()
-f = File.open('public/conference_attendee_list/aiea_2010.txt')
-f.each_line {|line|
-  list << line.delete("\n")
-}
-f.close
-num_attend = (list.length)/2 - 1;
-test = Conference.create(:name => list[0], :location => list[1], :num_attend => num_attend)
-for i in 1..num_attend
-  attendee = Attendee.create(:name => list[2*i], :location => list[2*i+1], :conference_id => test.id)
+#Read input files
+files = Dir.glob("public/conference_attendee_list/*")
+for file in files
+  list = Array.new()
+  f = File.open(file)
+  f.each_line {|line|
+    list << line.delete("\n")
+  }
+  f.close
+  num_attend = (list.length)/2 - 1;
+  test = Conference.create(:name => list[0], :location => list[1], :num_attend => num_attend)
+  for i in 1..num_attend
+    attendee = Attendee.create(:name => list[2*i], :location => list[2*i+1], :conference_id => test.id)
+  end
 end
 
 Attendee.all.each do |attendee|
@@ -28,10 +32,14 @@ end
 
 Conference.all.each do |conference|
   sum = 0
+  num_valid = 0
   conference.attendees.each do |attendee|
     if attendee.distance then
       sum += attendee.distance
+      num_valid += 1
     end
   end
   conference.update_attribute :footprint, sum
+  conference.update_attribute :num_valid, num_valid
+  conference.update_attribute :avg_dist, sum/num_valid
 end

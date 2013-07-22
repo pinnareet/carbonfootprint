@@ -5,4 +5,8 @@ class HomeController < ApplicationController
     f.close
     @conference = Conference.find(1); #temporary
   end
+
+  def display
+
+  end
 end

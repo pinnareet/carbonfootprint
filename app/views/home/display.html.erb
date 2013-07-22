@@ -1,0 +1,12 @@
+<h1>Display</h1>
+
+<% Conference.all.each do |conference| %>
+<p>
+  <%= conference.name %> </br>
+  Venue: <%= conference.location%> </br>
+  Total footprint: <%= conference.footprint %> miles </br>
+  Number of attendees: <%= conference.num_attend %> </br>
+  Number of geocoded attendees: <%= conference.num_valid %> </br>
+  Average distance per person: <%= conference.avg_dist %> </br>
+</p>
+<% end %>
