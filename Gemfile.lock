@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/liangwenke/to_xls-rails.git
+  revision: f98fb29f8e208b976a7889c4c623ca8785797c13
+  specs:
+    to_xls-rails (1.2.4)
+      spreadsheet (>= 0.8.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,11 +86,14 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    ruby-ole (1.2.11.7)
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    spreadsheet (0.8.7)
+      ruby-ole (>= 1.0)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -110,4 +120,5 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   sqlite3
+  to_xls-rails!
   uglifier (>= 1.0.3)

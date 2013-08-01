@@ -8,6 +8,9 @@
 
 #Create initial conference and attendees
 #Read input files
+Conference.find(8).destroy
+Attendee.where(:conference_id => 8).destroy_all
+
 files = Dir.glob("public/conference_attendee_list/*")
 for file in files
   list = Array.new()
@@ -17,29 +20,35 @@ for file in files
   }
   f.close
   num_attend = (list.length)/2 - 1;
-  test = Conference.create(:name => list[0], :location => list[1], :num_attend => num_attend)
-  for i in 1..num_attend
-    attendee = Attendee.create(:name => list[2*i], :location => list[2*i+1], :conference_id => test.id)
+  if !Conference.find_by_name(list[0]) then
+    test = Conference.create(:name => list[0], :location => list[1], :num_attend => num_attend)
+    for i in 1..num_attend
+      attendee = Attendee.create(:name => list[2*i], :location => list[2*i+1], :conference_id => test.id)
+    end
   end
 end
 
 Attendee.all.each do |attendee|
-  if attendee.geocoded? then
-    attendee.update_attribute :distance, attendee.distance_from(attendee.conference.coordinates)
-    #already stored as integer
+  if attendee.distance == nil then
+    if attendee.geocoded? then
+      attendee.update_attribute :distance, attendee.distance_from(attendee.conference.coordinates)
+      #already stored as integer
+    end
   end
 end
 
 Conference.all.each do |conference|
-  sum = 0
-  num_valid = 0
-  conference.attendees.each do |attendee|
-    if attendee.distance then
-      sum += attendee.distance
-      num_valid += 1
+  if conference.footprint == nil then
+    sum = 0
+    num_valid = 0
+    conference.attendees.each do |attendee|
+      if attendee.distance then
+        sum += attendee.distance
+        num_valid += 1
+      end
     end
+    conference.update_attribute :footprint, sum
+    conference.update_attribute :num_valid, num_valid
+    conference.update_attribute :avg_dist, sum/num_valid
   end
-  conference.update_attribute :footprint, sum
-  conference.update_attribute :num_valid, num_valid
-  conference.update_attribute :avg_dist, sum/num_valid
 end

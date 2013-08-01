@@ -7,6 +7,13 @@ class HomeController < ApplicationController
   end
 
   def display
+    @conferences = Conference.all
 
+    respond_to do |format|
+      format.html
+      format.xls {
+        send_data(@conferences.to_xls)
+      }
+    end
   end
 end

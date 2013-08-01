@@ -38,3 +38,5 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'geocoder'
+
+gem "to_xls-rails", :git => "git://github.com/liangwenke/to_xls-rails.git" # Track git repo
