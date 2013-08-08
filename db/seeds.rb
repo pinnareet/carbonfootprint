@@ -8,8 +8,8 @@
 
 #Create initial conference and attendees
 #Read input files
-Conference.find(8).destroy
-Attendee.where(:conference_id => 8).destroy_all
+#Conference.find(10).destroy
+#Attendee.where(:conference_id => 10).destroy_all
 
 files = Dir.glob("public/conference_attendee_list/*")
 for file in files

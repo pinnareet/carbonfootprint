@@ -1,0 +1,17 @@
+<h1>Attendees</h1>
+
+<p> <%= @conference.name%>'s Attendee List Download </p>
+
+<% @attendee.each do |attendee| %>
+    <p>
+      <%= attendee.name %> </br>
+      Place: <%= attendee.location%> </br>
+      Distance: <%= attendee.distance %> miles </br>
+      Coordinates: <%= attendee.coordinates %> </br>
+    </p>
+<% end %>
+
+<p>
+    <%= link_to 'Excel Download', controller: 'home', action: 'attendees', id: @conference_id, format: 'xls' %> </br>
+    <%= link_to 'CSV Download', controller: 'home', action: 'attendees', id: @conference_id, format: 'csv' %>
+</p>
