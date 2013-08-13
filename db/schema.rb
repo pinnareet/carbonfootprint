@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130719075424) do
+ActiveRecord::Schema.define(:version => 20130813211159) do
 
   create_table "attendees", :force => true do |t|
     t.string  "name"
@@ -20,6 +20,40 @@ ActiveRecord::Schema.define(:version => 20130719075424) do
     t.integer "conference_id"
     t.float   "latitude"
     t.float   "longitude"
+  end
+
+  create_table "capris", :force => true do |t|
+    t.string  "full_name"
+    t.integer "gender"
+    t.integer "age"
+    t.string  "affiliation"
+    t.text    "mailing_address"
+    t.integer "status"
+    t.float   "latitude"
+    t.float   "longitude"
+    t.integer "distance"
+    t.integer "user_id"
+  end
+
+  create_table "commuters", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "scan_time"
+    t.integer  "location"
+    t.integer  "direction"
+    t.integer  "credit_type"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "month"
+  end
+
+  create_table "commutes", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "scan_time"
+    t.integer  "location"
+    t.integer  "direction"
+    t.integer  "type"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "conferences", :force => true do |t|
@@ -31,6 +65,13 @@ ActiveRecord::Schema.define(:version => 20130719075424) do
     t.integer "num_valid"
     t.float   "latitude"
     t.float   "longitude"
+  end
+
+  create_table "exits", :force => true do |t|
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "sessions", :force => true do |t|

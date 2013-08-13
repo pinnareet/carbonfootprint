@@ -37,4 +37,17 @@ class HomeController < ApplicationController
       end
     end
   end
+
+  def capri
+    @user = Capri.all
+    respond_to do |format|
+      format.html
+      format.xls {
+        send_data(@user.to_xls)
+      }
+      format.csv {
+        send_data(@user.to_csv)
+      }
+    end
+  end
 end

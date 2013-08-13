@@ -52,3 +52,4 @@ Conference.all.each do |conference|
     conference.update_attribute :avg_dist, sum/num_valid
   end
 end
+
