@@ -11,7 +11,7 @@
 #Conference.find(10).destroy
 #Attendee.where(:conference_id => 10).destroy_all
 
-files = Dir.glob("public/conference_attendee_list/*")
+files = Dir.glob('public/conference_attendee_list/*')
 for file in files
   list = Array.new()
   f = File.open(file)

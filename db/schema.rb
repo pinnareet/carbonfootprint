@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130813211159) do
+ActiveRecord::Schema.define(:version => 20130815234918) do
 
   create_table "attendees", :force => true do |t|
     t.string  "name"
@@ -43,7 +43,8 @@ ActiveRecord::Schema.define(:version => 20130813211159) do
     t.integer  "credit_type"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.string   "month"
+    t.date     "scan_date"
+    t.float    "distance"
   end
 
   create_table "commutes", :force => true do |t|
@@ -67,9 +68,43 @@ ActiveRecord::Schema.define(:version => 20130813211159) do
     t.float   "longitude"
   end
 
+  create_table "entrances", :force => true do |t|
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "exits", :force => true do |t|
     t.float    "latitude"
     t.float    "longitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "monthly_emissions", :force => true do |t|
+    t.date     "month"
+    t.float    "total_distance"
+    t.float    "avg_distance"
+    t.float    "stat0_emission"
+    t.float    "stat1_emission"
+    t.float    "stat2_emission"
+    t.float    "stat3_emission"
+    t.float    "cred0_dist"
+    t.float    "cred1_dist"
+    t.float    "cred2_dist"
+    t.float    "cred3_dist"
+    t.float    "cred4_dist"
+    t.float    "prof_emission"
+    t.float    "stud_emission"
+    t.float    "staff_emission"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  create_table "register_dates", :force => true do |t|
+    t.string   "date_str"
+    t.datetime "date_obj"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -83,5 +118,18 @@ ActiveRecord::Schema.define(:version => 20130813211159) do
 
   add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
   add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
+
+  create_table "users", :force => true do |t|
+    t.string   "full_name"
+    t.integer  "gender"
+    t.integer  "age"
+    t.string   "affiliation"
+    t.text     "mailing_address"
+    t.integer  "status"
+    t.float    "distance"
+    t.string   "verification_date"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
 
 end
