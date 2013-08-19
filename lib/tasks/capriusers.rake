@@ -95,13 +95,18 @@ namespace :capriuser do
     #}
     #f.close
     Commuter.all.each do |commute|
-      if commute.distance == nil then
-        user = Capri.find_by_user_id(commute.user_id)
-        if user != nil and user.geocoded? then
-          commute.update_attribute :distance, user.distance_to(Entrance.find(commute.location).coordinates)
-          #already stored as integer
+      #if commute.distance == nil then
+      if commute.user_id < 2554 then
+        c_user = User.find(commute.user_id)
+        if c_user!= nil then
+          user = Capri.find_by_full_name(c_user.full_name)
+          if user != nil and user.geocoded? then
+            commute.update_attribute :distance, user.distance_to(Entrance.find(commute.location).coordinates)
+            #already stored as integer
+          end
         end
       end
+      #end
     end
   end
 
@@ -122,9 +127,25 @@ namespace :capriuser do
 
   desc 'Check if any commute distance is nil'
   task :check_dist_nil => :environment do
+    a = Array.new()
+    f = File.open('public/data/deleted.txt')
+    f.each_line {|line|
+      a = eval(line)
+    }
+    f.close
     Commuter.all.each do |commuter|
       if commuter.distance == nil then
-        puts commuter.id.to_s + 'user id' + commuter.user_id.to_s + "no distance!"
+        if commuter.user_id < 2554 then
+          commute_user = User.find(commuter.user_id)
+          if commute_user != nil then
+            user = Capri.find_by_full_name(commute_user.full_name)
+            if user != nil then
+              if !(a.include? user.id) then
+                puts commuter.id.to_s + ' user id' + commuter.user_id.to_s + 'Capri id' + user.id.to_s + "no distance!"
+              end
+            end
+          end
+        end
       end
     end
   end
