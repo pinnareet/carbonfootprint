@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dace9fa6-dab7-4f34-95dc-c59546d82cd4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/status.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/capriusers.rake" afterPath="$PROJECT_DIR$/lib/tasks/capriusers.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/monthly.rake" afterPath="$PROJECT_DIR$/lib/tasks/monthly.rake" />
@@ -18,7 +19,7 @@
     <file path="/index.html.erb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1374271327882" ignored="false" />
     <file path="/home_controller.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376077205029" ignored="false" />
     <file path="/20130716232123_load_data.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1374018750257" ignored="false" />
-    <file path="/Dummy.txt" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376847365350" ignored="false" />
+    <file path="/Dummy.txt" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1377013799788" ignored="false" />
     <file path="/routes.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1374177552626" ignored="false" />
     <file path="/Gemfile" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1375742304373" ignored="false" />
     <file path="/seeds.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1375746749147" ignored="false" />
@@ -32,7 +33,7 @@
     <file path="/codata_2004.txt" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1375744456246" ignored="false" />
     <file path="/geocoder.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1375743324966" ignored="false" />
     <file path="/attendees.html.erb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1375914400283" ignored="false" />
-    <file path="/capriusers.rake" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376811881845" ignored="false" />
+    <file path="/capriusers.rake" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1377029328594" ignored="false" />
     <file path="/capri.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376425428410" ignored="false" />
     <file path="/add_reset.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376009543505" ignored="false" />
     <file path="/capri.html.erb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376077135403" ignored="false" />
@@ -44,8 +45,9 @@
     <file path="/commuter.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376524298557" ignored="false" />
     <file path="/verfication_date.csv" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376597087108" ignored="false" />
     <file path="/20130815211317_drop_register_date_table.rb" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376601215397" ignored="false" />
-    <file path="/monthly.rake" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376896499201" ignored="false" />
+    <file path="/monthly.rake" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1377067667537" ignored="false" />
     <file path="/registration_date.csv" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1376892600289" ignored="false" />
+    <file path="/status.rake" changelist="dace9fa6-dab7-4f34-95dc-c59546d82cd4" time="1377071395748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +76,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monthly.rake" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="monthly.rake" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/monthly.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="55" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.21348314">
+            <state line="69" column="56" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="status.rake" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/status.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="116" column="23" selection-start="4127" selection-end="4127" vertical-scroll-proportion="0.90909094">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/data/user.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5197" column="11" selection-start="234478" selection-end="234478" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,13 +105,13 @@
       </file>
       <file leaf-file-name="commutes.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/data/commutes.csv">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="264" column="58" selection-start="8153" selection-end="8153" vertical-scroll-proportion="169641.92">
+            <state line="21" column="51" selection-start="690" selection-end="690" vertical-scroll-proportion="-11.666667">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -113,19 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capri.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/capri.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="capriusers.rake" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/capriusers.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="61" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
+            <state line="46" column="63" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/data/capri_residence.txt" />
-        <option value="$PROJECT_DIR$/public/data/capri_residence.csv" />
         <option value="$PROJECT_DIR$/app/models/commute.rb" />
         <option value="$PROJECT_DIR$/public/data/commutes.csv" />
         <option value="$PROJECT_DIR$/db/migrate/20130813195220_change_typeto_credit_type.rb" />
@@ -162,14 +171,16 @@
         <option value="$PROJECT_DIR$/app/models/entrance.rb" />
         <option value="$PROJECT_DIR$/public/data/verfication_date.csv" />
         <option value="$PROJECT_DIR$/db/migrate/20130815211317_drop_register_date_table.rb" />
-        <option value="$PROJECT_DIR$/lib/tasks/capriusers.rake" />
         <option value="$PROJECT_DIR$/public/data/registration_date.csv" />
+        <option value="$PROJECT_DIR$/public/data/capri_residence.csv" />
+        <option value="$PROJECT_DIR$/lib/tasks/capriusers.rake" />
         <option value="$PROJECT_DIR$/lib/tasks/monthly.rake" />
+        <option value="$PROJECT_DIR$/lib/tasks/status.rake" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
+    <option name="x" value="30" />
     <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="680" />
@@ -325,24 +336,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carbonfootprint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="carbonfootprint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -760,14 +753,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="22" width="1260" height="680" extended-state="0" />
+    <frame x="30" y="22" width="1260" height="680" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34843493" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3616145" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -844,19 +837,41 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130815210945_create_monthly_emissions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/verfication_date.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2283" column="17" selection-start="49754" selection-end="49754" vertical-scroll-proportion="0.8033708" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130815211430_create_register_dates.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="84" selection-start="184" selection-end="184" vertical-scroll-proportion="0.19662921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/registration_date.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2553" column="12" selection-start="56165" selection-end="56165" vertical-scroll-proportion="0.8033708" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/data/capriusers.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3083" column="18" selection-start="108590" selection-end="108590" vertical-scroll-proportion="88.76199" />
+        <state line="3086" column="15" selection-start="108707" selection-end="108707" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130815211317_drop_register_date_table.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130813200704_create_commuters.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/commuter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -868,28 +883,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130808230618_create_capris.rb">
+    <entry file="file://$PROJECT_DIR$/public/data/capri_residence.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/capri.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="64" selection-start="971" selection-end="971" vertical-scroll-proportion="0.5182342">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/monthly_emission.rb">
+    <entry file="file://$PROJECT_DIR$/public/data/user.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5197" column="11" selection-start="234478" selection-end="234478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130815210945_create_monthly_emissions.rb">
+    <entry file="file://$PROJECT_DIR$/public/data/commutes.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="21" column="51" selection-start="690" selection-end="690" vertical-scroll-proportion="-11.666667">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/capriusers.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="63" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -901,20 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/verfication_date.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2283" column="17" selection-start="49754" selection-end="49754" vertical-scroll-proportion="0.8033708">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/registration_date.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2553" column="27" selection-start="56174" selection-end="56174" vertical-scroll-proportion="0.8033708">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130815234918_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -922,33 +928,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130815211430_create_register_dates.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="84" selection-start="184" selection-end="184" vertical-scroll-proportion="0.19662921">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/commutes.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="58" selection-start="8153" selection-end="8153" vertical-scroll-proportion="169641.92">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/capriusers.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="61" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/monthly.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="55" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.21348314">
+        <state line="69" column="56" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/status.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="23" selection-start="4127" selection-end="4127" vertical-scroll-proportion="0.90909094">
           <folding />
         </state>
       </provider>

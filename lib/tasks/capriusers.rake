@@ -86,7 +86,7 @@ namespace :capriuser do
     #9 is 13 in the commuters and 10 is 16 in the commuters
   end
 
-  desc 'Calculate commute distance'
+  desc 'Calculate commute distance with full name "NULL" bug'
   task :calc_distance => :environment do
     #a = Array.new()
     #f = File.open('public/data/deleted.txt')
@@ -144,6 +144,22 @@ namespace :capriuser do
                 puts commuter.id.to_s + ' user id' + commuter.user_id.to_s + 'Capri id' + user.id.to_s + "no distance!"
               end
             end
+          end
+        end
+      end
+    end
+  end
+
+  desc 'Fix commute distance'
+  task :fix_commute_distance => :environment do
+    Commuter.all.each do |commute|
+      if commute.user_id < 2554 then
+        c_user = User.find(commute.user_id)
+        if c_user!= nil and c_user.full_name == 'NULL' then
+          user = Capri.find_by_mailing_address(c_user.mailing_address)
+          if user != nil and user.geocoded? then
+            commute.update_attribute :distance, user.distance_to(Entrance.find(commute.location).coordinates)
+            #already stored as integer
           end
         end
       end
