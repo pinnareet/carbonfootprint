@@ -11,10 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130821062854) do
+ActiveRecord::Schema.define(:version => 20130823060332) do
 
   create_table "affiliations", :force => true do |t|
     t.string   "aff"
+    t.integer  "cred_type"
+    t.string   "cred_type_str"
+    t.date     "month"
+    t.float    "distance"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  create_table "ages", :force => true do |t|
+    t.integer  "num"
+    t.string   "str"
     t.integer  "cred_type"
     t.string   "cred_type_str"
     t.date     "month"
@@ -43,6 +54,17 @@ ActiveRecord::Schema.define(:version => 20130821062854) do
     t.float   "longitude"
     t.integer "distance"
     t.integer "user_id"
+  end
+
+  create_table "categories", :force => true do |t|
+    t.integer  "num"
+    t.string   "str"
+    t.integer  "cred_type"
+    t.string   "cred_type_str"
+    t.date     "month"
+    t.float    "distance"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "commuters", :force => true do |t|
@@ -92,6 +114,17 @@ ActiveRecord::Schema.define(:version => 20130821062854) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "genders", :force => true do |t|
+    t.integer  "num"
+    t.string   "str"
+    t.integer  "cred_type"
+    t.string   "cred_type_str"
+    t.date     "month"
+    t.float    "distance"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
   create_table "monthly_emissions", :force => true do |t|
     t.date     "month"
     t.float    "total_distance"
@@ -112,6 +145,19 @@ ActiveRecord::Schema.define(:version => 20130821062854) do
     t.datetime "updated_at",     :null => false
     t.integer  "num_ppl"
     t.integer  "accu_num_ppl"
+    t.float    "emission"
+    t.float    "peak_emission"
+  end
+
+  create_table "monthly_statuses", :force => true do |t|
+    t.date     "month"
+    t.integer  "status"
+    t.integer  "num_ppl"
+    t.integer  "accu_num_ppl"
+    t.float    "avg_emission"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.float    "emission"
   end
 
   create_table "register_dates", :force => true do |t|

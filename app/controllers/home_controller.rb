@@ -50,4 +50,56 @@ class HomeController < ApplicationController
       }
     end
   end
+
+  def status
+    @user = Status.all
+    respond_to do |format|
+      format.html
+      format.xls {
+        send_data(@user.to_xls)
+      }
+      format.csv {
+        send_data(@user.to_csv)
+      }
+    end
+  end
+
+  def affiliation
+    @user = Affiliation.all
+    respond_to do |format|
+      format.html
+      format.xls {
+        send_data(@user.to_xls)
+      }
+      format.csv {
+        send_data(@user.to_csv)
+      }
+    end
+  end
+
+  def total_distance
+    @user = MonthlyEmission.all
+    respond_to do |format|
+      format.html
+      format.xls {
+        send_data(@user.to_xls)
+      }
+      format.csv {
+        send_data(@user.to_csv)
+      }
+    end
+  end
+
+  def monthly_status
+    @user = MonthlyStatus.all
+    respond_to do |format|
+      format.html
+      format.xls {
+        send_data(@user.to_xls)
+      }
+      format.csv {
+        send_data(@user.to_csv)
+      }
+    end
+  end
 end
